@@ -1,0 +1,5 @@
+name: Jons module
+type: module
+description: This  module for Blog
+core: 8.x
+package: Custom

@@ -1,0 +1,9 @@
+uuid: 923faddb-df24-486b-b25e-9f6486d6a152
+langcode: hi
+status: true
+dependencies: {  }
+id: hi
+label: Hindi
+direction: ltr
+weight: 1
+locked: false

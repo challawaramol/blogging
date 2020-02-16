@@ -1,0 +1,10 @@
+uuid: 5a5377f9-3cf3-4b2d-a0f6-500d40f2edee
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: EO4xaHlSzIreWZT6wjIhTtGhcjW-EQR_nOx9Sds-6TE
+id: ip2country_time
+label: 'Time only (ip2country)'
+locked: false
+pattern: 'H:i:s T'

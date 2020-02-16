@@ -1,0 +1,7 @@
+evolent.display_table_controller_display:
+  path: '/john-test'
+  defaults:
+    _controller: '\Drupal\john\Controller\DisplayTableController::display'
+    _title: 'Contact Person list'
+  requirements:
+    _permission: 'access content'

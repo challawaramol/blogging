@@ -1,0 +1,8 @@
+watchdog: true
+rir: arin
+md5_checksum: false
+update_interval: 604800
+debug: true
+test_type: 0
+test_country: PK
+test_ip_address: '::1'

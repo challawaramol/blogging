@@ -1,0 +1,20 @@
+uuid: 976bf607-5625-4f41-b9c3-ac3c0f05c786
+langcode: en
+status: true
+dependencies:
+  module:
+    - john
+  theme:
+    - bartik
+id: popularnodeblock
+theme: bartik
+region: content
+weight: 0
+provider: null
+plugin: popular_node_block
+settings:
+  id: popular_node_block
+  label: 'Popular Node block'
+  provider: john
+  label_display: visible
+visibility: {  }
