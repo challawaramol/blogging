@@ -48,7 +48,7 @@ class CustomredirectSubscriber implements EventSubscriberInterface {
    */
   function getCountryCodeByIp($ip=null){
     //$ip = "172.217.166.4"; // USA
-    $ip = "125.99.114.130"; // India
+    //$ip = "125.99.114.130"; // India
     //$ip = "27.96.95.255"; // pakistan
     //$ip =  $_SERVER['REMOTE_ADDR'];
     $ip_data = json_decode(file_get_contents("http://www.geoplugin.net/json.gp?ip=".$ip));
@@ -65,7 +65,7 @@ class CustomredirectSubscriber implements EventSubscriberInterface {
    */
   public static function getSubscribedEvents() {
     $events = [];
-    $events[KernelEvents::REQUEST][] = ['onRouteMatch', 27];
+    //$events[KernelEvents::REQUEST][] = ['onRouteMatch', 27];
     $events[KernelEvents::REQUEST][] = array('customRedirection');
     return $events;
   }

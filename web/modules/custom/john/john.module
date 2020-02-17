@@ -1,2 +1,15 @@
 <?php
 
+/**
+ * Implements hook_theme().
+ */
+function john_theme() {
+  return [
+    'popular-node-block' => [
+      'variables' => [
+        'nodes_build' => [],
+      ],
+      'template'  => 'popular-node-block',
+    ],
+  ];
+}
