@@ -50,7 +50,7 @@ class CustomredirectSubscriber implements EventSubscriberInterface {
     //$ip = "172.217.166.4"; // USA
     //$ip = "125.99.114.130"; // India
     //$ip = "27.96.95.255"; // pakistan
-    //$ip =  $_SERVER['REMOTE_ADDR'];
+    $ip =  $_SERVER['REMOTE_ADDR'];
     $ip_data = json_decode(file_get_contents("http://www.geoplugin.net/json.gp?ip=".$ip));
      if($ip_data && $ip_data->geoplugin_countryName != null){
          $result['countryCode'] = $ip_data->geoplugin_countryCode;
